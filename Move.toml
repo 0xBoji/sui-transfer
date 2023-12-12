@@ -1,0 +1,9 @@
+[package]
+name = "transfer_address"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+transfer_address = "0x0"
